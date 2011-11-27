@@ -1,0 +1,3 @@
+[submodule "node/public/js/Canvas.js"]
+	path = node/public/js/Canvas.js
+	url = git@github.com:krolow/Canvas.js.git
