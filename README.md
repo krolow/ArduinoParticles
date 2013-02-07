@@ -35,4 +35,7 @@ If you have problems like this:
 
 Fix it like this:
     
-    sudo npm install serialport@1.0.6
+    npm install serialport@1.0.6
+    cd node_modules/serialport
+    node-gyp configure build
+
