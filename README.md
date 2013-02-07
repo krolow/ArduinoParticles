@@ -28,8 +28,11 @@ Demo at youtube: http://www.youtube.com/watch?v=6yl_jmYQLhM
 
 
 If you have problems like this:
+    
     node.js:201
         throw e; // process.nextTick error, or 'error' event on first tick
     Error: Could not load the bindings file. Tried:
 
-sudo npm install serialport@1.0.6
+Fix it like this:
+    
+    sudo npm install serialport@1.0.6
