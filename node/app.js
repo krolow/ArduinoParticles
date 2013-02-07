@@ -1,9 +1,11 @@
 var express = require('express');
-var io = require('socket.io');
-var app = express.createServer();
-var io = io.listen(app);
+var app = express();
+var http = require('http');
+var server = http.createServer(app);
+var io = require('socket.io').listen(server);
+
 var SerialPort = require('serialport').SerialPort;
-var serialPort = new SerialPort('/dev/tty.usbserial-A800G0JO');
+var serialPort = new SerialPort('/dev/ttyACM0');
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
@@ -20,4 +22,4 @@ io.sockets.on('connection', function (socket) {
 	
 });
 
-app.listen(8090);
+server.listen(8090);
