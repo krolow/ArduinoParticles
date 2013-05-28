@@ -12,14 +12,6 @@ Arduino.prototype = Object.create(events.EventEmitter.prototype, {
         enumerable: false
     }
 });
-// inherit events.EventEmitter
-Dummy.super_ = events.EventEmitter;
-Dummy.prototype = Object.create(events.EventEmitter.prototype, {
-    constructor: {
-        value: Dummy,
-        enumerable: false
-    }
-});
 
 var Event = new EventEmitter();
 
