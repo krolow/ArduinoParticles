@@ -1,0 +1,31 @@
+{
+  "name": "ArduinoParticles",
+  "version": "0.0.1",
+  "description": "A simple example using node.js, canvas and javascript integrated with arduino.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^3.8.0",
+    "http": "0.0.0",
+    "serialport": "^1.4.0",
+    "socket.io": "^0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krolow/ArduinoParticles.git"
+  },
+  "keywords": [
+    "Arduino",
+    "Application",
+    "Node"
+  ],
+  "author": "Vinícius Krolow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krolow/ArduinoParticles/issues"
+  },
+  "homepage": "https://github.com/krolow/ArduinoParticles"
+}
