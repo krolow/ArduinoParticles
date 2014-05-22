@@ -6,7 +6,7 @@ A simple example using node.js, canvas and javascript integrated with arduino.
 
 This application depends of, express.js 3.x, socket.io and serialport. To install do:
 
-	npm install express
+	npm install express@3.x
 	npm install serialport
 	npm install socket.io
 	npm install http
