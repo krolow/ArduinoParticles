@@ -5,11 +5,9 @@ ArduinoParticle
 A simple example using node.js, canvas and javascript integrated with arduino.
 
 This application depends of, express.js 3.x, socket.io and serialport. To install do:
-
-	npm install express@3.x
-	npm install serialport
-	npm install socket.io
-	npm install http
+	
+	cd node
+	npm install
 
 To run the application, access the node folder and start the app.js
 	
