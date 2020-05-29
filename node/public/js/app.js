@@ -5,7 +5,6 @@ window.onload = function () {
 	socket.on('connect', function () {
 		//console.log('connected');
 		socket.on('data', function (data) {
-			//console.log(data);
 			particleManager.addParticles(data.length);
 		});
 	});

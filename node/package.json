@@ -6,8 +6,8 @@
   "dependencies": {
     "express": "^3.8.0",
     "http": "0.0.0",
-    "serialport": "^1.4.0",
-    "socket.io": "^0.9.16"
+    "serialport": "^7.0.2",
+    "socket.io": "^2.3.0"
   },
   "scripts": {
     "start": "node app.js"
