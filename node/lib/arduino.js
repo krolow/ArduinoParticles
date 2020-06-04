@@ -1,5 +1,6 @@
+const port = require('../serial.js')
 var SerialPort = require('serialport').SerialPort;
-var serialPort = new SerialPort('/dev/tty.usbserial-A800G0JO');
+var serialPort = new SerialPort(port);
 var events = require("events");
 
 function Arduino () {
